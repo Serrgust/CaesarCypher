@@ -14,5 +14,13 @@ public class CaesarCypher {
 		shiftedAlphabet = rightSubstring + leftSubstring;
 
 	}
+	
+	public String encode (String clearText) {
+		String cypheredText = "";
+		for(int i=0; i<clearText.length(); i++) {
+			cypheredText += shiftedAlphabet.charAt(alphabet.indexOf(clearText.charAt(i)));
+		}
+		return cypheredText;
+	}
 
 }
