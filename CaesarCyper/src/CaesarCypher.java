@@ -1,7 +1,7 @@
 
 public class CaesarCypher {
 
-	private int key;
+	public int key;
 	
 	private final static String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	
